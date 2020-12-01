@@ -12,7 +12,7 @@ engine = create_engine('sqlite:///database.db', echo=True)
 Base = declarative_base()
 
 
-# Описываем структуры таблицы
+# Описываем структуру таблицы
 class Product(Base):
     __tablename__ = 'product'
 
